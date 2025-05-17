@@ -59,7 +59,8 @@ You can find the OpenAPI (Swagger) documentation for this API in the [`swagger.y
    DB_PORT=3306
    DB_NAME=your_database
    ```
-> [!NOTE] The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
+> [!NOTE]
+> The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
 
 ### Running the App
 
