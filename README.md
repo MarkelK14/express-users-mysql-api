@@ -12,11 +12,11 @@ A simple and efficient Node.js project that provides a users API REST with full 
 - Automatic server reload during development
 
 ## Used Technologies
-- Node.js & Express: To create the server and define the routes.
-- MySQL: As the database management system.
-- dotenv: To manage environment variables.
-- CORS: To allow requests from different origins.
-- Nodemon: To automatically reload the server during development.
+- **Node.js & Express:** To create the server and define the routes.
+- **MySQL:** As the database management system.
+- **dotenv:** To manage environment variables.
+- **CORS:** To allow requests from different origins.
+- **Nodemon:** To automatically reload the server during development.
 
 ## Getting Started
 
