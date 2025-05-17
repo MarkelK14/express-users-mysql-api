@@ -2,6 +2,21 @@
 
 A simple and efficient API REST for user CRUD operations, built with Express and MySQL. This template uses middlewares and provides a clean starting point for backend projects that need basic user management and database integration.
 
+## Index
+- [Features](#features)
+- [Used Technologies](#used-technologies)
+- [Swagger Documentation](#swagger-documentation)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Configuration](#environment-configuration)
+  - [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 - User CRUD operations (Create, Read, Update, Delete)
 - Express.js API REST
