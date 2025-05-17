@@ -1,6 +1,6 @@
 # Express Users API
 
-A simple and efficient API REST for user CRUD operations, built with Express and MySQL. This template uses middlewares and provides a clean starting point for backend projects that need basic user management and database integration.
+A simple and efficient Node.js project that provides a users API REST with full CRUD operations, built using Express and designed for integration with MySQL databases. This template uses middlewares and provides a clean starting point for backend projects that need basic user management and database integration.
 
 ## Features
 - User CRUD operations (Create, Read, Update, Delete)
