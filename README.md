@@ -4,13 +4,19 @@ A simple and efficient Node.js project that provides a users API REST with full 
 
 ## Features
 - User CRUD operations (Create, Read, Update, Delete)
-- Express.js API REST
-- MySQL integration (database connection required)
+- RESTful API endpoints
 - Modular architecture (controllers, models, routes, middlewares)
-- Environment variable support via `.env`
+- Environment variable support
 - CORS enabled
 - Error handling and 404 responses
-- Nodemon for development
+- Automatic server reload during development
+
+## Used Technologies
+- Node.js & Express: To create the server and define the routes.
+- MySQL: As the database management system.
+- dotenv: To manage environment variables.
+- CORS: To allow requests from different origins.
+- Nodemon: To automatically reload the server during development.
 
 ## Getting Started
 
