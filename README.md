@@ -13,6 +13,17 @@ A simple and efficient API REST for user CRUD operations, built with Express and
 - Nodemon for development
 - OpenAPI (Swagger) documentation available
 
+## Used Technologies
+- **Node.js & Express:** To create the server and define the routes.
+- **MySQL:** As the database management system.
+- **dotenv:** To manage environment variables.
+- **CORS:** To allow requests from different origins.
+- **Nodemon:** To automatically reload the server during development.
+
+## Swagger Documentation
+
+You can find the OpenAPI (Swagger) documentation for this API in the [`swagger.yaml`](./swagger.yaml) file at the root of this project. This file describes all available endpoints, request/response formats, and data models for the Users API. You can visualize and interact with the API using tools like [Swagger Editor](https://editor.swagger.io/) or [Swagger UI](https://swagger.io/tools/swagger-ui/).
+
 ## Getting Started
 
 ### Prerequisites
@@ -24,7 +35,7 @@ A simple and efficient API REST for user CRUD operations, built with Express and
    ```sh
    git clone git@github.com:MarkelK14/express-users-api.git
    ```
-2. Install dependencies:
+2. Change to the project directory:
    ```sh
    cd <project-name>
    ```
@@ -48,7 +59,7 @@ A simple and efficient API REST for user CRUD operations, built with Express and
    DB_PORT=3306
    DB_NAME=your_database
    ```
-   The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
+   > **Note:** The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
 
 ### Running the App
 
@@ -67,10 +78,6 @@ To start the server in development mode with nodemon, which will automatically r
 npm run dev
 ```
 
-## Swagger Documentation
-
-You can find the OpenAPI (Swagger) documentation for this API in the [`swagger.yaml`](./swagger.yaml) file at the root of this project. This file describes all available endpoints, request/response formats, and data models for the Users API.
-
 ### Project Structure
 ```
 express-users-api/
@@ -86,6 +93,7 @@ express-users-api/
 ├── .env.example            # Example environment variables
 ├── package.json            # Project metadata and scripts
 ├── README.md               # Project documentation
+├── swagger.yaml            # OpenAPI documentation
 └── ...
 ```
 
