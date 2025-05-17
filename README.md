@@ -1,22 +1,17 @@
 # Express Users API
 
-A simple and efficient Node.js project that provides a users API REST with full CRUD operations, built using Express and designed for integration with MySQL databases. This template uses middlewares and provides a clean starting point for backend projects that need basic user management and database integration.
+A simple and efficient API REST for user CRUD operations, built with Express and MySQL. This template uses middlewares and provides a clean starting point for backend projects that need basic user management and database integration.
 
 ## Features
 - User CRUD operations (Create, Read, Update, Delete)
-- RESTful API endpoints
+- Express.js API REST
+- MySQL integration (database connection required)
 - Modular architecture (controllers, models, routes, middlewares)
-- Environment variable support
+- Environment variable support via `.env`
 - CORS enabled
 - Error handling and 404 responses
-- Automatic server reload during development
-
-## Used Technologies
-- **Node.js & Express:** To create the server and define the routes.
-- **MySQL:** As the database management system.
-- **dotenv:** To manage environment variables.
-- **CORS:** To allow requests from different origins.
-- **Nodemon:** To automatically reload the server during development.
+- Nodemon for development
+- OpenAPI (Swagger) documentation available
 
 ## Getting Started
 
@@ -71,6 +66,10 @@ To start the server in development mode with nodemon, which will automatically r
 ```sh
 npm run dev
 ```
+
+## Swagger Documentation
+
+You can find the OpenAPI (Swagger) documentation for this API in the [`swagger.yaml`](./swagger.yaml) file at the root of this project. This file describes all available endpoints, request/response formats, and data models for the Users API.
 
 ### Project Structure
 ```
