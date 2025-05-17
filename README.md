@@ -59,7 +59,7 @@ You can find the OpenAPI (Swagger) documentation for this API in the [`swagger.y
    DB_PORT=3306
    DB_NAME=your_database
    ```
-   > **Note:** The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
+> [!NOTE] The MySQL connection is handled in `src/config/db.js`. Make sure your environment variables are set correctly in your `.env` file.
 
 ### Running the App
 
@@ -98,11 +98,14 @@ express-users-api/
 ```
 
 ### API Endpoints
-- `GET    /api/`           - List all users
-- `GET    /api/:userId`    - Get user by ID
-- `POST   /api/`           - Create new user
-- `PUT    /api/:userId`    - Update user by ID
-- `DELETE /api/:userId`    - Delete user by ID
+
+| Method | Endpoint         | Description        |
+|--------|------------------|-------------------|
+| GET    | /api/            | List all users    |
+| GET    | /api/:userId     | Get user by ID    |
+| POST   | /api/            | Create new user   |
+| PUT    | /api/:userId     | Update user by ID |
+| DELETE | /api/:userId     | Delete user by ID |
 
 ### Scripts
 - `npm start`    - Start the server
